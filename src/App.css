@@ -1,0 +1,33 @@
+.navbar-nav a{
+  font-size: 20px;
+}
+@media only screen and (max-width: 500px)  {
+ .home{
+   display: flex;
+   flex-direction: column;
+   
+   justify-content: center;
+  
+ }
+ #banner1{
+   position: relative;
+   left:10rem;
+ }
+ #banner2{
+   position: relative;
+   right:15rem;
+   top:20rem;
+ }
+ #txt{
+  position: relative;
+  
+  top:20rem;
+ }
+ #txt2{
+  position: relative;
+  
+  top:15rem;
+ }
+ 
+
+}
